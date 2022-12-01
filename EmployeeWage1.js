@@ -5,6 +5,7 @@ let workingDays = 0
 let empRateArray = [0,80,160]
 function getEmployeeWage(attendance,map1){
 let empWage = 0
+
 switch(attendance){
     case 1 : empWage = empRateArray[2]*FULL_TIME_HOUR
     workingDays++
